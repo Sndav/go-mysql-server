@@ -20,7 +20,7 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // An IndexedJoin is a join that uses index lookups for the secondary table.

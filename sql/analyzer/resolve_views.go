@@ -17,8 +17,8 @@ package analyzer
 import (
 	"fmt"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 func resolveViews(ctx *sql.Context, a *Analyzer, n sql.Node, scope *Scope) (sql.Node, error) {

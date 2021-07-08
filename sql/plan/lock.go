@@ -19,7 +19,7 @@ import (
 
 	errors "gopkg.in/src-d/go-errors.v1"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // TableLock is a read or write lock on a table.

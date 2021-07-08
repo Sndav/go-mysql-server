@@ -21,7 +21,7 @@ import (
 	"github.com/dolthub/vitess/go/mysql"
 	"github.com/sirupsen/logrus"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // AuditMethod is called to log the audit trail of actions.

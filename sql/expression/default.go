@@ -15,7 +15,7 @@
 package expression
 
 import (
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // DefaultColumn is an default expression of a column that is not yet resolved.

@@ -52,17 +52,17 @@ What's the use case of **go-mysql-server**?
 
 ## Installation
 
-The import path for the package is `github.com/dolthub/go-mysql-server`.
+The import path for the package is `github.com/Sndav/go-mysql-server`.
 
 To install it, run:
 
 ```
-go get github.com/dolthub/go-mysql-server
+go get github.com/Sndav/go-mysql-server
 ```
 
 ## Go Documentation
 
-* [go-mysql-server godoc](https://godoc.org/github.com/dolthub/go-mysql-server)
+* [go-mysql-server godoc](https://godoc.org/github.com/Sndav/go-mysql-server)
 
 ## SQL syntax
 
@@ -213,11 +213,11 @@ package main
 import (
     "time"
 
-    "github.com/dolthub/go-mysql-server/auth"
-    "github.com/dolthub/go-mysql-server/memory"
-    "github.com/dolthub/go-mysql-server/server"
-    "github.com/dolthub/go-mysql-server/sql"
-    sqle "github.com/dolthub/go-mysql-server"
+    "github.com/Sndav/go-mysql-server/auth"
+    "github.com/Sndav/go-mysql-server/memory"
+    "github.com/Sndav/go-mysql-server/server"
+    "github.com/Sndav/go-mysql-server/sql"
+    sqle "github.com/Sndav/go-mysql-server"
 )
 
 func main() {

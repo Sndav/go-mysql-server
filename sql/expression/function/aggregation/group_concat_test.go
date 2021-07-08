@@ -20,8 +20,8 @@ import (
 	"github.com/dolthub/vitess/go/vt/proto/query"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 func TestGroupConcat_FunctionName(t *testing.T) {

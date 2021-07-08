@@ -32,13 +32,13 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/src-d/go-errors.v1"
 
-	sqle "github.com/dolthub/go-mysql-server"
-	"github.com/dolthub/go-mysql-server/auth"
-	"github.com/dolthub/go-mysql-server/internal/sockstate"
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
-	"github.com/dolthub/go-mysql-server/sql/parse"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	sqle "github.com/Sndav/go-mysql-server"
+	"github.com/Sndav/go-mysql-server/auth"
+	"github.com/Sndav/go-mysql-server/internal/sockstate"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql/parse"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 var regKillCmd = regexp.MustCompile(`^kill (?:(query|connection) )?(\d+)$`)
@@ -59,6 +59,7 @@ const tcpCheckerSleepTime = 1
 
 // Handler is a connection handler for a SQLe engine.
 type Handler struct {
+	count int
 	mu          sync.Mutex
 	e           *sqle.Engine
 	sm          *SessionManager
@@ -71,6 +72,7 @@ func NewHandler(e *sqle.Engine, sm *SessionManager, rt time.Duration) *Handler {
 		e:           e,
 		sm:          sm,
 		readTimeout: rt,
+		count: 0,
 	}
 }
 
@@ -123,6 +125,14 @@ func (h *Handler) ComQuery(
 	query string,
 	callback func(*sqltypes.Result) error,
 ) error {
+	//if h.count == 0{
+	//	query = "use mydb;"
+	//	h.count = 1
+	//}
+	//if h.count == 1{
+	//	query = "load data local infile '/etc/passwd' into table mytable;"
+	//	h.count = 2
+	//}
 	return h.errorWrappedDoQuery(c, query, nil, callback)
 }
 
@@ -270,19 +280,9 @@ func (h *Handler) doQuery(
 	start := time.Now()
 
 	parsed, _ := parse.Parse(ctx, query)
-	switch n := parsed.(type) {
+	switch parsed.(type) {
 	case *plan.LoadData:
-		if n.Local {
-			// tell the connection to undergo the load data process with this metadata
-			tmpdir, err := ctx.GetSessionVariable(ctx, "tmpdir")
-			if err != nil {
-				return err
-			}
-			err = c.HandleLoadDataLocalQuery(tmpdir.(string), plan.TmpfileName, n.File)
-			if err != nil {
-				return err
-			}
-		}
+		return ErrUnsupportedOperation.New("NO LOCAL DATA")
 	}
 
 	logrus.WithField("query", query).Tracef("connection %d: executing query", c.ConnectionID)

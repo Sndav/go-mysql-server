@@ -17,7 +17,7 @@ package plan
 import (
 	"io"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // Block represents a collection of statements that should be executed in sequence.

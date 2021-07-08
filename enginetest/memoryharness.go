@@ -18,8 +18,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/dolthub/go-mysql-server/memory"
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/memory"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 type IndexDriverInitalizer func([]sql.Database) sql.IndexDriver

@@ -27,9 +27,9 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/stretchr/testify/require"
 
-	sqle "github.com/dolthub/go-mysql-server"
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	sqle "github.com/Sndav/go-mysql-server"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 func TestHandlerOutput(t *testing.T) {

@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 // pushdownFilters attempts to push conditions in filters down to individual tables. Tables that implement

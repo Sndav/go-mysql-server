@@ -20,10 +20,10 @@ import (
 
 	"gopkg.in/src-d/go-errors.v1"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
-	"github.com/dolthub/go-mysql-server/sql/parse"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql/parse"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 // loadStoredProcedures loads stored procedures for all databases on relevant calls.

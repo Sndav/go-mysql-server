@@ -17,7 +17,7 @@ package plan
 import (
 	"errors"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // ShowTableStatus returns the status of the tables in a database.

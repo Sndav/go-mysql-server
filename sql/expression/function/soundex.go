@@ -19,8 +19,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 // Soundex is a function that returns the soundex of a string. Two strings that

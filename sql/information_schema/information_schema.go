@@ -24,10 +24,10 @@ import (
 	"github.com/dolthub/vitess/go/sqltypes"
 	"github.com/dolthub/vitess/go/vt/sqlparser"
 
-	. "github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/analyzer"
-	"github.com/dolthub/go-mysql-server/sql/parse"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	. "github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/analyzer"
+	"github.com/Sndav/go-mysql-server/sql/parse"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 const (

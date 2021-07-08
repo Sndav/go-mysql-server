@@ -17,8 +17,8 @@ package aggregation
 import (
 	"fmt"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 // Avg node to calculate the average from numeric column

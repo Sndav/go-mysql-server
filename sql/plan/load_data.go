@@ -19,13 +19,12 @@ import (
 	"fmt"
 	"io"
 	"os"
-	"path/filepath"
 	"strings"
 
 	"github.com/dolthub/vitess/go/vt/sqlparser"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 type LoadData struct {
@@ -164,15 +163,16 @@ func (l *LoadData) RowIter(ctx *sql.Context, row sql.Row) (sql.RowIter, error) {
 		tmpdir, err := ctx.GetSessionVariable(ctx, "tmpdir")
 		fileName = tmpdir.(string) + TmpfileName
 	} else {
-		dir, err := ctx.GetSessionVariable(ctx, "secure_file_priv")
-		if err != nil {
-			return nil, err
-		}
-		if dir == nil {
-			return nil, sql.ErrSecureFileDirNotSet.New()
-		}
-
-		fileName = filepath.Join(dir.(string), l.File)
+		return nil,sql.ErrSecureFileDirNotSet.New()
+		//dir, err := ctx.GetSessionVariable(ctx, "secure_file_priv")
+		//if err != nil {
+		//	return nil, err
+		//}
+		//if dir == nil {
+		//	return nil, sql.ErrSecureFileDirNotSet.New()
+		//}
+		//
+		//fileName = filepath.Join(dir.(string), l.File)
 	}
 
 	file, err := os.Open(fileName)

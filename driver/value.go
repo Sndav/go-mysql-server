@@ -23,8 +23,8 @@ import (
 
 	"github.com/dolthub/vitess/go/sqltypes"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 // ErrUnsupportedType is returned when a query argument of an unsupported type is passed to a statement

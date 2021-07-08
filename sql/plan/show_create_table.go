@@ -21,7 +21,7 @@ import (
 
 	"gopkg.in/src-d/go-errors.v1"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 var ErrNotView = errors.NewKind("'%' is not VIEW")

@@ -15,8 +15,8 @@
 package plan
 
 import (
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 // TransformUp applies a transformation function to the given tree from the

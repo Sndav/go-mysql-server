@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // ConcatWithSeparator joins several strings together. The first argument is

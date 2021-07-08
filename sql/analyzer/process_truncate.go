@@ -20,8 +20,8 @@ import (
 
 	"github.com/dolthub/vitess/go/vt/sqlparser"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 func processTruncate(ctx *sql.Context, a *Analyzer, n sql.Node, scope *Scope) (sql.Node, error) {

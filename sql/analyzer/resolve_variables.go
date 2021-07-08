@@ -20,10 +20,10 @@ import (
 
 	"github.com/dolthub/vitess/go/vt/sqlparser"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
-	"github.com/dolthub/go-mysql-server/sql/parse"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql/parse"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 // resolveSetVariables replaces SET @@var and SET @var expressions with appropriately resolved expressions for the

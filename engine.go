@@ -19,12 +19,12 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/dolthub/go-mysql-server/auth"
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/analyzer"
-	"github.com/dolthub/go-mysql-server/sql/expression/function"
-	"github.com/dolthub/go-mysql-server/sql/parse"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/auth"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/analyzer"
+	"github.com/Sndav/go-mysql-server/sql/expression/function"
+	"github.com/Sndav/go-mysql-server/sql/parse"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 // Config for the Engine.

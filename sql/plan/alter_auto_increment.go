@@ -17,7 +17,7 @@ package plan
 import (
 	"fmt"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 type AlterAutoIncrement struct {

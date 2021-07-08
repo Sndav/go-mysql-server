@@ -17,7 +17,7 @@ package auth_test
 import (
 	"testing"
 
-	"github.com/dolthub/go-mysql-server/auth"
+	"github.com/Sndav/go-mysql-server/auth"
 )
 
 func TestNoneAuthentication(t *testing.T) {

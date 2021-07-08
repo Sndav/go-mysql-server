@@ -25,8 +25,8 @@ import (
 	"github.com/shopspring/decimal"
 	"gopkg.in/src-d/go-errors.v1"
 
-	"github.com/dolthub/go-mysql-server/internal/regex"
-	istrings "github.com/dolthub/go-mysql-server/internal/strings"
+	"github.com/Sndav/go-mysql-server/internal/regex"
+	istrings "github.com/Sndav/go-mysql-server/internal/strings"
 )
 
 const (

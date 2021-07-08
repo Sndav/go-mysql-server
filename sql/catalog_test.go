@@ -20,8 +20,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dolthub/go-mysql-server/memory"
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/memory"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 func TestAllDatabases(t *testing.T) {

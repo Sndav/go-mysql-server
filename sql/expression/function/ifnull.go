@@ -17,8 +17,8 @@ package function
 import (
 	"fmt"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 // IfNull function returns the specified value IF the expression is NULL, otherwise return the expression.

@@ -17,8 +17,8 @@ package function
 import (
 	"fmt"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 // NullIf function compares two expressions and returns NULL if they are equal. Otherwise, the first expression is returned.

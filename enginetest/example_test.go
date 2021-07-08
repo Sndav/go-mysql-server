@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"io"
 
-	sqle "github.com/dolthub/go-mysql-server"
-	"github.com/dolthub/go-mysql-server/memory"
-	"github.com/dolthub/go-mysql-server/sql"
+	sqle "github.com/Sndav/go-mysql-server"
+	"github.com/Sndav/go-mysql-server/memory"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 func Example() {

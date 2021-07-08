@@ -17,9 +17,9 @@ package analyzer
 import (
 	"fmt"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 type usedColumns map[string]map[string]struct{}

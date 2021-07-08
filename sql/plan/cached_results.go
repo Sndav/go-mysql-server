@@ -18,7 +18,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // NewCachedResults returns a cached results plan Node, which will use a

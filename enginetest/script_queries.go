@@ -17,10 +17,10 @@ package enginetest
 import (
 	"gopkg.in/src-d/go-errors.v1"
 
-	"github.com/dolthub/go-mysql-server/sql/analyzer"
+	"github.com/Sndav/go-mysql-server/sql/analyzer"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 type ScriptTest struct {

@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dolthub/go-mysql-server/auth"
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/auth"
+	"github.com/Sndav/go-mysql-server/sql"
 
 	"github.com/sanity-io/litter"
 	"github.com/sirupsen/logrus"

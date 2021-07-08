@@ -19,8 +19,8 @@ import (
 
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 // Count node to count how many rows are in the result set.

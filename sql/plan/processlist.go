@@ -18,7 +18,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 type process struct {

@@ -14,7 +14,7 @@
 
 package enginetest
 
-import "github.com/dolthub/go-mysql-server/sql"
+import "github.com/Sndav/go-mysql-server/sql"
 
 // TransactionTest is a script to test transaction correctness. It's similar to ScriptTest, but its assertions name
 // clients that participate

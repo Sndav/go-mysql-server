@@ -21,10 +21,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dolthub/go-mysql-server/memory"
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
-	"github.com/dolthub/go-mysql-server/sql/parse"
+	"github.com/Sndav/go-mysql-server/memory"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql/parse"
 )
 
 func TestTablePartitionsCount(t *testing.T) {

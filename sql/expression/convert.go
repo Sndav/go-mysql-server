@@ -22,7 +22,7 @@ import (
 
 	"gopkg.in/src-d/go-errors.v1"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // ErrConvertExpression is returned when a conversion is not possible.

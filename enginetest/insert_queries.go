@@ -19,9 +19,9 @@ import (
 
 	"github.com/dolthub/vitess/go/mysql"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
-	"github.com/dolthub/go-mysql-server/sql/parse"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql/parse"
 )
 
 var InsertQueries = []WriteQueryTest{

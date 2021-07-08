@@ -18,7 +18,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 // ProcedureCache contains all of the stored procedures for each database.

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 // Split receives a string and returns the parts of it splitted by a

@@ -20,10 +20,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/src-d/go-errors.v1"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
-	"github.com/dolthub/go-mysql-server/sql/expression/function"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql/expression/function"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 func TestResolveGenerators(t *testing.T) {

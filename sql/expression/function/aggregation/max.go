@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 // Max aggregation returns the greatest value of the selected column.

@@ -17,8 +17,8 @@ package analyzer
 import (
 	"strings"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 // resolveDropConstraint replaces DropConstraint nodes with a concrete type of alter table node as appropriate, or

@@ -22,12 +22,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sqle "github.com/dolthub/go-mysql-server"
-	"github.com/dolthub/go-mysql-server/auth"
-	"github.com/dolthub/go-mysql-server/memory"
-	"github.com/dolthub/go-mysql-server/server"
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/analyzer"
+	sqle "github.com/Sndav/go-mysql-server"
+	"github.com/Sndav/go-mysql-server/auth"
+	"github.com/Sndav/go-mysql-server/memory"
+	"github.com/Sndav/go-mysql-server/server"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/analyzer"
 )
 
 const port = 33336

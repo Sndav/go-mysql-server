@@ -17,7 +17,7 @@ package expression
 import (
 	"fmt"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // Not is a node that negates an expression.

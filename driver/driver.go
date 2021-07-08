@@ -21,9 +21,9 @@ import (
 	"net/url"
 	"sync"
 
-	sqle "github.com/dolthub/go-mysql-server"
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/analyzer"
+	sqle "github.com/Sndav/go-mysql-server"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/analyzer"
 )
 
 // ScanKind indicates how values should be scanned.

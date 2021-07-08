@@ -19,7 +19,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dolthub/go-mysql-server/internal/similartext"
+	"github.com/Sndav/go-mysql-server/internal/similartext"
 
 	"gopkg.in/src-d/go-errors.v1"
 )

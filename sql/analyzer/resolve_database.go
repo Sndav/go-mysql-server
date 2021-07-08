@@ -15,8 +15,8 @@
 package analyzer
 
 import (
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 // resolveDatabase sets a database for nodes that implement sql.Databaser. Replaces sql.UnresolvedDatabase with the

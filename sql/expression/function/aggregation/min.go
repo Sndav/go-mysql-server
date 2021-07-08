@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
 )
 
 // Min aggregation returns the smallest value of the selected column.

@@ -17,8 +17,8 @@ package memory_test
 import (
 	"testing"
 
-	"github.com/dolthub/go-mysql-server/memory"
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/memory"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 func TestIssue361(t *testing.T) {

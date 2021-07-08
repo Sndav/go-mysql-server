@@ -15,7 +15,7 @@
 package plan
 
 import (
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // BeginEndBlock represents a BEGIN/END block.

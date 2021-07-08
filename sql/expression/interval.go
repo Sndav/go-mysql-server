@@ -23,7 +23,7 @@ import (
 
 	errors "gopkg.in/src-d/go-errors.v1"
 
-	"github.com/dolthub/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql"
 )
 
 // Interval defines a time duration.

@@ -27,10 +27,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/src-d/go-errors.v1"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/expression"
-	"github.com/dolthub/go-mysql-server/sql/expression/function/aggregation"
-	"github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/expression"
+	"github.com/Sndav/go-mysql-server/sql/expression/function/aggregation"
+	"github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 var showCollationProjection = plan.NewProject([]sql.Expression{

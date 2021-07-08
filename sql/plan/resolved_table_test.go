@@ -21,9 +21,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dolthub/go-mysql-server/sql"
-	"github.com/dolthub/go-mysql-server/sql/parse"
-	. "github.com/dolthub/go-mysql-server/sql/plan"
+	"github.com/Sndav/go-mysql-server/sql"
+	"github.com/Sndav/go-mysql-server/sql/parse"
+	. "github.com/Sndav/go-mysql-server/sql/plan"
 )
 
 func TestResolvedTable(t *testing.T) {
